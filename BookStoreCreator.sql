@@ -39,7 +39,6 @@ CREATE TABLE IF NOT EXISTS `Book_Commerce`.`user` (
   `user_id` INT NOT NULL AUTO_INCREMENT,
   `first_name` VARCHAR(45) NOT NULL,
   `last_name` VARCHAR(45) NOT NULL,
-  `contact` INT(10) NOT NULL,
   PRIMARY KEY (`user_id`))
 ENGINE = InnoDB;
 
